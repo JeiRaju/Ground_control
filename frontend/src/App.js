@@ -1,11 +1,14 @@
 import React from 'react';
-
-import Dashboard from './pages/Dashboard';
+import Footer from './components/Footer';
+import TokenScreen from './components/TokenModal';
+// import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <Dashboard />
+      {/* <Dashboard /> */}
+      <TokenScreen />
+      <Footer />
     </div>
   );
 }
